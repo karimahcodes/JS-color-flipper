@@ -15,7 +15,7 @@ btn.addEventListener('click', function(){ //anonymous callback function
     
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber] 
-    //starts with the hardcoded number ("2") to test, then is randomized with getRandomNumber() function as the index to retrieve from the colors array, and assigns this color to the background and text. 
+    //test with the hardcoded number ("2"), then randomize with getRandomNumber() function as the index to retrieve from the colors array, and assign this color to the background and text. 
     
 
 
